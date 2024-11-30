@@ -1,6 +1,6 @@
 const data = {
     "name": "Prathap Ganjikunta",
-    "intro": "A passionate software developer and technology enthusiast with a love for problem-solving and continuous learning.",
+    "intro": "Dedicated DevOps professional with 2+ years of hands-on experience in optimizing CI/CD workflows and enhancing system performance using tools such as Jenkins, Docker, and Kubernetes. Adept at troubleshooting and resolving complex issues, collaborating with cross-functional teams, and ensuring high availability and reliability of applications. Committed to leveraging best practices and continuous improvement to support agile development and deliver robust, scalable solutions.",
     "skills": [
         "Git and GitHub", "Jenkins", "Docker", "Kubernetes", "Ansible", "Linux", "Rancher", "MySQL", "Oracle", "SQL"
     ],
