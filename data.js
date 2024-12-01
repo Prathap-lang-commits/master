@@ -9,13 +9,21 @@ const data = {
             "title": "Client DevOps Engineer",
             "company": "CGI",
             "duration": "Apr 2022 - Present",
-            "description": "Developing modern web applications using JavaScript, React, and Node.js."
+            "description": "As a dedicated technical professional, I have consistently delivered advanced technical support to client environments, resolving complex application issues through efficient screen-sharing and remote diagnostics, ensuring high client satisfaction. I have successfully managed and optimized both client and internal systems, overseeing intricate application setups and deployments to maintain peak system performance and reliability.
+
+			With a strong focus on project delivery, I developed and executed detailed deployment plans, aligning with project schedules and requirements to ensure successful software releases. My proactive approach to monitoring and analyzing application performance has allowed me to address potential issues in real-time, preventing end-user impact and enhancing system stability.
+
+			Additionally, I have played a key role in fostering team development by mentoring junior team members, contributing to their professional growth while also improving the overall effectiveness and cohesion of the team. My commitment to excellence in both technical execution and team collaboration has consistently supported the success of projects and client satisfaction."
         },
         {
             "title": "DevOps Engineer",
             "company": "CGI",
             "duration": "Apr 2022 - Present",
-            "description": "Worked on developing backend services with Python and integrated them into the frontend."
+            "description": "As a results-driven professional, I spearheaded daily build processes to ensure the accurate and timely generation of software builds, maintaining rigorous standards of quality and consistency. I proactively identified and resolved internal project issues by collaborating with development teams, troubleshooting challenges, and implementing effective solutions to keep projects on track.
+
+			In addition to my technical expertise, I created and maintained comprehensive documentation covering installation procedures, configuration settings, and troubleshooting processes. This documentation facilitated knowledge sharing, ensuring consistency and empowering teams to work more efficiently.
+
+			I worked closely with cross-functional teams to integrate and deploy software updates, ensuring seamless alignment with project requirements while minimizing disruptions. My commitment to continuous improvement led me to engage in root cause analysis of recurring issues, where I recommended and implemented strategic enhancements to prevent future occurrences and further elevate system reliability."
         }
     ],
     "education": [
@@ -27,7 +35,7 @@ const data = {
     ],
     "contact": "prathapg2112@gmail.com",
     // Relative link to the resume PDF in your repo
-    "resumeLink": "Prathap_Ganjikunta_August2024.pdf"  // Make sure this matches the actual file name and path in your repo
+    "resumeLink": "Prathap_Ganjikunta_December2024.pdf"  // Make sure this matches the actual file name and path in your repo
 };
 
 document.addEventListener("DOMContentLoaded", function() {
