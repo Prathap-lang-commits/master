@@ -1,18 +1,15 @@
-/* Reset all margins, paddings, and set box-sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* General Body Styles */
 body {
-    font-family: Arial, sans-serif; /* You can change to a custom font here */
+    font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
 }
 
-/* Header Styles */
 header {
     background-color: #2c3e50;
     color: white;
@@ -30,14 +27,12 @@ header p {
     font-weight: lighter;
 }
 
-/* Container for all sections */
 .container {
     width: 80%;
     max-width: 1200px;
     margin: auto;
 }
 
-/* Section Styles */
 section {
     margin: 40px 0;
 }
@@ -48,7 +43,6 @@ h2 {
     color: #2c3e50;
 }
 
-/* List Styles */
 ul {
     list-style: none;
     padding: 0;
@@ -59,15 +53,8 @@ li {
     margin: 10px 0;
     padding: 10px;
     border-radius: 5px;
-    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
 }
 
-li:hover {
-    background-color: #dfe6e9; /* Slight change on hover */
-    cursor: pointer; /* Shows pointer cursor */
-}
-
-/* Footer Styles */
 footer {
     background-color: #2c3e50;
     color: white;
@@ -79,7 +66,17 @@ footer span {
     font-weight: bold;
 }
 
-/* Media Queries for Responsiveness */
+/* Style for the resume link */
+#resume-link a {
+    color: #3498db; /* Change this to your preferred color */
+    text-decoration: none; /* Removes the default underline */
+}
+
+#resume-link a:hover {
+    color: #2980b9; /* Color change on hover */
+    text-decoration: underline; /* Optional: underline on hover */
+}
+
 @media (max-width: 768px) {
     header h1 {
         font-size: 2em;
@@ -89,23 +86,5 @@ footer span {
     }
     h2 {
         font-size: 1.5em;
-    }
-    .container {
-        width: 90%; /* Adjust container width for mobile */
-    }
-    section {
-        margin: 20px 0;
-    }
-}
-
-@media (max-width: 480px) {
-    header h1 {
-        font-size: 1.8em;
-    }
-    header p {
-        font-size: 0.9em;
-    }
-    h2 {
-        font-size: 1.4em;
     }
 }
